@@ -1,0 +1,93 @@
+body {
+  background-color:rgb(22, 22, 22);
+  margin: 0 auto;
+}
+
+header {
+  background: fixed #000e16 url("../images/Header/Layer 6.png") center top/100% no-repeat;
+  height: 1086px; 
+}
+
+.Sublime {
+  font-size: 60px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0);
+/*  -moz-transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0);
+  -webkit-transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0);
+  -ms-transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0); */
+  position: absolute;
+  margin-left: 368.872px;
+  margin-top: 151px;
+}
+
+.Sublime1 {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  margin-left: 143.096px;
+  margin-top: 278.09px;
+}
+.We_create__Awesome_Games {
+  font-size: 60px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.8;
+  text-align: left;
+  position: static;
+  margin-left: calc(146.937px - 102px);
+  margin-top: calc(546.844px - 432px);
+}
+
+/* Первые буквы */
+.Sublime span,
+.Sublime1 span,
+.We_create__Awesome_Games span {
+  color: rgb(255, 198, 0);
+}
+
+.Download_the_psd_ {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 198, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  margin-left: 143.844px;
+  margin-top: 347.072px;
+}
+
+.Layer_5 {
+  background:rgb(255, 255, 255) url("../images/Header/Layer 5.png") center center/cover no-repeat;
+  position: absolute;
+  top: 432px;
+  width: 1198px;
+  height: 654px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.navbar-nav {
+  margin-left: calc(146.937px - 102px);
+}
+
+.nav li a {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 198, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.nav li a:hover {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 198, 0);
+}
