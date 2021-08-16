@@ -1,6 +1,11 @@
+body, a, p, div {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color:rgb(22, 22, 22);
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 header {
