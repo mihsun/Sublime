@@ -1,11 +1,12 @@
 body, a, p, div {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color:rgb(22, 22, 22);
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 header {
@@ -13,20 +14,25 @@ header {
   height: 1086px; 
 }
 
+.header {
+  width: 1198px;
+  margin: 0 auto;
+}
+
 .Sublime {
-  font-size: 60px;
+  font-size: 202px;
   font-family: "Myriad Pro";
   color: rgb(255, 255, 255);
   font-weight: bold;
-  line-height: 1.2;
+  letter-spacing: -10px;
+  line-height: 0.8;
   text-align: left;
-  transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0);
-/*  -moz-transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0);
+/*  transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0);
+  -moz-transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0);
   -webkit-transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0);
   -ms-transform: matrix(3.3689473496991, 0, 0, 3.3689473496991, 0, 0); */
-  position: absolute;
-  margin-left: 368.872px;
-  margin-top: 151px;
+  padding-left: 27px;
+  padding-top: 126px;
 }
 
 .Sublime1 {
@@ -35,20 +41,39 @@ header {
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: left;
-  position: absolute;
-  margin-left: 143.096px;
-  margin-top: 278.09px;
+  padding-left: 42px;
 }
+
+.Download_the_psd {
+  padding-left: 42px;
+  padding-top: 20px;
+}
+
+.Download_the_psd a {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 198, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.Download_the_psd a:hover {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 198, 0);
+  text-decoration: none;
+}
+
 .We_create__Awesome_Games {
   font-size: 60px;
   font-family: "Myriad Pro";
   color: rgb(255, 255, 255);
   font-weight: bold;
+  letter-spacing: -3px;
   line-height: 0.8;
   text-align: left;
   position: static;
-  margin-left: calc(146.937px - 102px);
-  margin-top: calc(546.844px - 432px);
+  padding-left: 35px;
+  padding-top: 65px;
 }
 
 /* Первые буквы */
@@ -56,17 +81,6 @@ header {
 .Sublime1 span,
 .We_create__Awesome_Games span {
   color: rgb(255, 198, 0);
-}
-
-.Download_the_psd_ {
-  font-size: 18px;
-  font-family: "Myriad Pro";
-  color: rgb(255, 198, 0);
-  line-height: 1.2;
-  text-align: left;
-  position: absolute;
-  margin-left: 143.844px;
-  margin-top: 347.072px;
 }
 
 .Layer_5 {
@@ -80,8 +94,11 @@ header {
   transform: translate(-50%);
 }
 
+.navbar {
+  padding-top: 25px;
+}
 .navbar-nav {
-  margin-left: calc(146.937px - 102px);
+  padding-left: 18px;
 }
 
 .nav li a {
